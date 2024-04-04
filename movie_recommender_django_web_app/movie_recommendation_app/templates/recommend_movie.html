@@ -8,9 +8,13 @@
 
     <div class="container text-center" id="searchBox">
         <h1>Recommended Movies List</h1>
-        {% for movie_name in recommended_movie_names %}
-            <h4>{{ movie_name }}</h4>
-        {% endfor %}
+        {% if error %}
+            <h4>{{ error }}</h4>
+        {% else %}
+            {% for movie_name in recommended_movie_names %}
+                <h4>{{ movie_name }}</h4>
+            {% endfor %}
+        {% endif %}
     </div>
 
 </header>

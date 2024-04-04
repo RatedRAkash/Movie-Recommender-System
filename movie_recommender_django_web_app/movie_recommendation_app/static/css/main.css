@@ -88,9 +88,12 @@ input{
   padding-top: 40vh;
 }
 
-button{
-  background: none;
-  border: none;
+button {
+  font-family: 'Arvo', sans-serif;
+  color: #FFFFFF;
+  background: #E35865;
+  font-size: 16px; /* Adjust the font size as needed */
+  padding: 10px 20px; /* Adjust the padding to increase button size */
 }
 
 .form{
