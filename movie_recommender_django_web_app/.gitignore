@@ -1,0 +1,4 @@
+.env
+.venv
+dj_venv/
+*_venv/

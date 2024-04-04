@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+
+.env
+.venv
+ml_venv/
+*_venv/
+movie_list.pkl
+similarity.pkl

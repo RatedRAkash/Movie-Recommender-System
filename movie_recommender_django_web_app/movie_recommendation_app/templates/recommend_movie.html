@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+<!--    <script src="{% static 'js/main.js' %}"></script>-->
+<header class="container-fluid">
+
+    <div class="container text-center" id="searchBox">
+        <h1>Recommended Movies List</h1>
+        {% for movie_name in recommended_movie_names %}
+            <h4>{{ movie_name }}</h4>
+        {% endfor %}
+    </div>
+
+</header>
+<div id="mainBody" class="container text-center">
+    <ul id="results">
+    </ul>
+</div>
+<footer class="text-center">
+
+</footer>
+</html>
