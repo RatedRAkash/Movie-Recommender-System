@@ -1,4 +1,23 @@
+### Virtual Env ###
 .env
 .venv
 dj_venv/
 *_venv/
+
+# PyBuilder
+target/
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+*/__pycache__/
+*__pycache__/
+
+.vscode
+/.venv
+.idea
+/static
+/media
+static.tar.gz
