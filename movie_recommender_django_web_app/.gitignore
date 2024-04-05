@@ -18,6 +18,7 @@ __pycache__/
 .vscode
 /.venv
 .idea
+.idea/
 /static
 /media
 static.tar.gz
