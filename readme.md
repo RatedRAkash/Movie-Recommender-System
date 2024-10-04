@@ -1,4 +1,3 @@
-
 ## Movie Recommender Django App
 
 This is a project for Machine Learning (CSE-476).
@@ -45,7 +44,7 @@ SIMILARITY_PKL_LOCATION = "{Project_Root_Directory}/movie-recommender-system/tra
 // run the django server
 python manage.py runserver 0.0.0.0:8000
 ```
-##### Demo
+##### Demo Screenshot
 ![image](https://github.com/RatedRAkash/Movie_Recommender_System/assets/49761339/188a4b61-6768-494d-9afa-ee66879c50c4)
 
 ![image](https://github.com/RatedRAkash/Movie_Recommender_System/assets/49761339/528009d4-6542-4d4b-8b59-c2ab19c9dea6)
